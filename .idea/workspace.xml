@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3a7429a1-b994-40a7-b0bd-57cd1b4fde3e" name="Default Changelist" comment="f">
+      <change afterPath="$PROJECT_DIR$/../DjangoPostgres/.idea/DjangoPostgres.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_TELEGRAMM/DamirBOT/DamirBOT_v4/.idea/DamirBOT_v4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_TELEGRAMM/DamirBOT/DamirBOT_v5/.idea/DamirBOT.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_TELEGRAMM/DamirBOT/DamirBOT_v6/.idea/DamirBOT_v4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_TELEGRAMM/DamirBOT/DamirBot_v3/.idea/DamirBot_v3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_TELEGRAMM/bot_GladkovTests/.idea/DamirBOT_v4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_TELEGRAMM/bot_prodav_v_1.0/.idea/bot_prodav_v_1.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_TELEGRAMM/bot_silevans/.idea/DamirBOT_v4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_TELEGRAMM/bot_silevans/.idea/vizitka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_TELEGRAMM/bot_torgovla/.idea/bot_torgovla.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_TELEGRAMM/bot_torgovla/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_TELEGRAMM/bot_vizitka/.idea/bot_vizitka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_TELEGRAMM/bot_ytParse/.idea/bot_ytParse.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_TELEGRAMM/meditation/.idea/avito_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_WEB/authorization/.idea/authorization.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_WEB/authorization/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_WEB/django/.idea/django.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_WEB/smoke_demo/.idea/smoke_demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_WEB/web/.idea/web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_WEB/web/django_1/.idea/django_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_YANDEX/git_hub/.idea/git_hub.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_YANDEX/git_hub/web/.idea/web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_YANDEX/untitled/.idea/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_YANDEX/untitled/Проект/.idea/Проект.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_компоненты/.idea/_компоненты.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_компоненты/telegram/.idea/telegram.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../avito_1/.idea/avito_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../avito_1/handlers/users/inline_menu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoAdmin/.idea/djangoAdmin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysite/.idea/mysite.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../neiro/.idea/neiro.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tg_bot_withWEB/.idea/tg_bot_withWEB.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/untitled1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webinars/.idea/webinars.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/users.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filters/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filters/isadmin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/help.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/menu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/default/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/default/keyboard_menu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/inline_kb_menu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/states/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/states/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/db_api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/db_api/db_asyncpg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/db_api/db_sqlite3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/notify_admins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/set_bot_commands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ПАРСЕР_ТГ_БОТов/.idea/ПАРСЕР_ТГ_БОТов.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2PynFolppQUpxrUhnhlmvQ6Fymz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\akbul\PycharmProjects\yd" />
+      <recent name="C:\Users\akbul\PycharmProjects" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="yd" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a7429a1-b994-40a7-b0bd-57cd1b4fde3e" name="Default Changelist" comment="f" />
+      <created>1684438087893</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684438087893</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="845" y="383" key="#Notifications" timestamp="1684438288032">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="845" y="383" key="#Notifications/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684438288032" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1684438427821">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684438427821" />
+    <state x="614" y="107" key="CommitChangelistDialog2" timestamp="1684438961319">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="614" y="107" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684438961319" />
+    <state x="184" y="86" key="DiffContextDialog" timestamp="1684438499408">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684438499408" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1684438382645">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684438382645" />
+    <state x="784" y="440" key="Github.CreateGistDialog" timestamp="1684438348028">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="784" y="440" key="Github.CreateGistDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684438348028" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1684439075802">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684439075802" />
+    <state x="765" y="381" key="git4idea.rebase.GitRebaseDialog" timestamp="1684438545220">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="381" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684438545220" />
+  </component>
+</project>
