@@ -2,7 +2,7 @@ from loader import dp, datebase
 from keyboards.inline import inline_kb_menu
 from aiogram.dispatcher import FSMContext
 from aiogram import types
-from states.state import RegistrationTrener
+from states.state import *
 from aiogram.types import CallbackQuery
 
 
@@ -18,6 +18,24 @@ async def command_start(message: types.Message):
                              f'\nподготовьте, можете всегда отмена',
                              reply_markup=inline_kb_menu.start_be_trener)
 
+
+@dp.callback_query_handler(text='team_create')
+async def start_be_trener(call: CallbackQuery):
+    await call.message.answer('Введите информацию о команде, в следующем формате:'
+                              '\nАдминистративный центр\nНазвание команды\nВид спорта\n')
+    await CreateTeam.msg.set()
+
+
+@dp.message_handler(state=CreateTeam.msg)
+async def trener_fio(message: types.Message, state: FSMContext):
+    m1 = datebase.trener_info(message.from_user.id)
+    text = f'Тренер "{m1[2]}" - пасспорт({m1[3]}) \n\nОставила(-а) заявку на создание команды:\n' + message.text
+    await message.answer('Отлично! Заявка создана, наш менеджер свяжется с вами, в случае ошибки заполнения '
+                         'анкеты вы получите соответствующее сообщение!')
+    await dp.bot.send_message(chat_id='-600665752',
+                              text=text,
+                              reply_markup=inline_kb_menu.team_create(message.from_user.id))
+    await state.finish()
 
 
 @dp.callback_query_handler(text='start_be_trener')

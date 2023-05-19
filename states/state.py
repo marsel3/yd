@@ -11,3 +11,15 @@ class RegistrationTrener(StatesGroup):
 class RejectionTrener(StatesGroup):
     user_id = State()
     rejection = State()
+
+
+class SearchByTeam(StatesGroup):
+    team = State()
+
+
+class CreateTeam(StatesGroup):
+    msg = State()
+
+
+class ChangeSostav(StatesGroup):
+    msg = State()

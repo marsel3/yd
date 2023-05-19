@@ -31,7 +31,11 @@ back_menu = InlineKeyboardMarkup(row_width=2,
                                 ])
 
 
-
+edit_sostav = InlineKeyboardMarkup(row_width=2,
+                                 inline_keyboard=[
+                                     [InlineKeyboardButton(text='Внести измения', callback_data='edit_sostav')
+                                      ],
+                                ])
 
 
 def make_trener(user_id):
@@ -41,6 +45,26 @@ def make_trener(user_id):
                                       ],
                                      [InlineKeyboardButton(text='Это лжец!',
                                                            callback_data=f'setTrener_{user_id}_False')
+                                      ],
+                                ])
+
+def team_create(user_id):
+    return InlineKeyboardMarkup(row_width=2,
+                                 inline_keyboard=[
+                                     [InlineKeyboardButton(text='Подтвердить создание команды', callback_data=f'createTeam_{user_id}_True')
+                                      ],
+                                     [InlineKeyboardButton(text='Не хочу!',
+                                                           callback_data=f'createTeam_{user_id}_False')
+                                      ],
+                                ])
+
+def team_sostav_change(user_id):
+    return InlineKeyboardMarkup(row_width=2,
+                                 inline_keyboard=[
+                                     [InlineKeyboardButton(text='Подтвердить изменение в составе', callback_data=f'sostavChange_{user_id}_True')
+                                      ],
+                                     [InlineKeyboardButton(text='Не буду, я уже устал работать!',
+                                                           callback_data=f'sostavChange_{user_id}_False')
                                       ],
                                 ])
 
@@ -78,7 +102,7 @@ def trener_menu(user_id):
         text += f'\n\nГлавный тренер команды "{team_info[1]}"'
         btns.append([InlineKeyboardButton(text=f'Рейтинг команды', callback_data=f'teamstatus_{team_info[0]}')])
         btns.append([InlineKeyboardButton(text=f'Статистика игр', callback_data=f'teamrange_{team_info[0]}')])
-        btns.append([InlineKeyboardButton(text=f'Изменить состав', callback_data=f'team_chang_{team_info[0]}')])
+        btns.append([InlineKeyboardButton(text=f'Изменить состав', callback_data=f'teamchang_{team_info[0]}')])
 
     else:
         btns.append([InlineKeyboardButton(text='Заявить команду',

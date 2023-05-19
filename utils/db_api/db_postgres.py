@@ -150,5 +150,12 @@ class DataBase:
                                 ''')
             return self.cursor.fetchall()
 
+    def sporstmen_by_team(self, team_id):
+        with self.connection:
+            self.cursor.execute(f'''
+                                    SELECT * FROM "CreateDatabase_sportsmen" WHERE "sportsmen_team_id" = '{team_id}' 
+                                ''')
+            return self.cursor.fetchall()
+
 db = DataBase()
 print(db.final_results_byteam(18))
