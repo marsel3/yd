@@ -96,7 +96,6 @@ class DataBase:
             return self.cursor.fetchall()[0]
 
 
-
     def teams_by_vidsporta(self, vidsporta):
         with self.connection:
             self.cursor.execute(f'''SELECT "team_id", "team_name" FROM "CreateDatabase_team" WHERE "team_vidsporta_id"='{vidsporta}' ''')
@@ -108,7 +107,6 @@ class DataBase:
             self.cursor.execute(f'''SELECT "team_id", "team_name" FROM "CreateDatabase_team" WHERE "team_name"
                                     like '%{type}%' ''')
             return self.cursor.fetchall()
-
 
     def vidsporta(self, type):
         with self.connection:
@@ -126,5 +124,31 @@ class DataBase:
                                 (SELECT "team_vidsporta_id" FROM "CreateDatabase_team" WHERE "team_id"='{id}') ''')
             return self.cursor.fetchall()[0][0]
 
+
+    def results_solo_byteam(self, team_id):
+        with self.connection:
+            self.cursor.execute(f'''SELECT g."games_name", rs."game_result"
+                                    FROM "CreateDatabase_resultssolo" AS rs
+                                    JOIN "CreateDatabase_games" AS g ON rs."resultsolo_id_id" = g."games_id"
+                                    WHERE rs."resultsolo_solo_id" = '{team_id}'
+                                ''')
+            return self.cursor.fetchall()
+
+
+    def results_team_byteam(self, team_id):
+        with self.connection:
+            self.cursor.execute(f'''
+
+                                ''')
+            return self.cursor.fetchall()
+
+
+    def final_results_byteam(self, team_id):
+        with self.connection:
+            self.cursor.execute(f'''
+                                    SELECT * FROM "CreateDatabase_competition" WHERE "competition_team_id" = '{team_id}' 
+                                ''')
+            return self.cursor.fetchall()
+
 db = DataBase()
-print(db.vidsporta_type_by_team(17))
+print(db.final_results_byteam(18))

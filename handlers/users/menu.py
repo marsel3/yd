@@ -62,12 +62,38 @@ async def team_teams(call: CallbackQuery):
     team_id = call.data.split('_')[1]
     type_ = datebase.vidsporta_type_by_team(team_id)
     team_name = datebase.teaminfo_by_id(team_id)[1]
-    print(team_name)
-    if type_:
-        print(1)
-    else:
-        print(0)
+    text = f'Список всех матчей "{team_name}" с баллами:\n\n'
 
+    if type_:
+        m1 = ''
+    else:
+        m1 = datebase.results_solo_byteam(team_id)
+
+    if len(m1) > 0:
+        c = 1
+        for i in m1:
+            text += f'{c}. {i[0]} - {i[1]} баллов\n'
+
+        await call.message.answer(text)
+    else:
+        await call.message.answer(f"{'Команда' if type_ else 'Участник'} '{team_name}' ещё не участвовал(-а)")
+
+
+@dp.callback_query_handler(text_startswith='teamstatus_')
+async def team_teams(call: CallbackQuery):
+    team_id = call.data.split('_')[1]
+    final = datebase.final_results_byteam(team_id)
+    type_ = datebase.vidsporta_type_by_team(team_id)
+    team_name = datebase.teaminfo_by_id(team_id)[1]
+
+    text = f"{'Команда' if type_ else 'Участник'} '{team_name}' "
+    if bool(len(final)):
+        m1 = datebase.final_results_byteam(team_id)
+        text += f' занял(-а) {m1[0][1]} место!'
+        await call.message.answer(text)
+    else:
+        text += f' ещё не занял(-а) призового места, возможно соревнования всё ещё продолжаются!'
+        await call.message.answer(text)
 
 
 @dp.message_handler(text='Любимые команды')

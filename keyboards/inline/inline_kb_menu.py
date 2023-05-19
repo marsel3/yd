@@ -76,7 +76,7 @@ def trener_menu(user_id):
     if datebase.team_by_trener(trener_id):
         team_info = datebase.teaminfo_by_trener(trener_id)
         text += f'\n\nГлавный тренер команды "{team_info[1]}"'
-        btns.append([InlineKeyboardButton(text=f'Рейтинг команды', callback_data=f'team_status_{team_info[0]}')])
+        btns.append([InlineKeyboardButton(text=f'Рейтинг команды', callback_data=f'teamstatus_{team_info[0]}')])
         btns.append([InlineKeyboardButton(text=f'Статистика игр', callback_data=f'teamrange_{team_info[0]}')])
         btns.append([InlineKeyboardButton(text=f'Изменить состав', callback_data=f'team_chang_{team_info[0]}')])
 
@@ -90,33 +90,25 @@ def trener_menu(user_id):
 
 
 
-def team_info(team_id):
+def teamsolo_info(team_id):
     info = datebase.teaminfo_by_id(team_id)
     trener_info = datebase.trener_info_by_id(info[3])
-    text = f'Команда - {info[1]} ' \
+    type_ = datebase.vidsporta_type_by_team(team_id)
+    text = 'Команда' if type_ else "Участник"
+    text += f' - {info[1]} ' \
            f'\nВыступает за {info[2]}.' \
            f'\n\nГлавный тренер - {trener_info[2]} (квалификация-{trener_info[4]})'
     btns = []
 
     btns.append([InlineKeyboardButton(text=f'Результаты игр', callback_data=f'teamrange_{info[0]}')])
+    btns.append([InlineKeyboardButton(text=f'Рейтинг', callback_data=f'teamstatus_{info[0]}')])
     btns.append([InlineKeyboardButton(text='Назад', callback_data=f'teamsvidsporta_{info[4]}')])
     markup = InlineKeyboardMarkup(row_width=2, inline_keyboard=btns)
     return text, markup
 
 
 
-def solo_info(user_id):
-    info = datebase.teaminfo_by_id(user_id)
-    trener_info = datebase.trener_info_by_id(info[3])
-    text = f'Игорок - {info[1]} ' \
-           f'\nВыступает за {info[2]}.' \
-           f'\n\nГлавный тренер - {trener_info[2]} (квалификация-{trener_info[4]})'
-    btns = []
 
-    btns.append([InlineKeyboardButton(text=f'Результаты игр', callback_data=f'teamrange_{info[0]}')])
-    btns.append([InlineKeyboardButton(text='Назад', callback_data=f'teamsvidsporta_{info[4]}')])
-    markup = InlineKeyboardMarkup(row_width=2, inline_keyboard=btns)
-    return text, markup
 
 
 

@@ -12,5 +12,5 @@ from keyboards.inline import inline_kb_menu
 @dp.callback_query_handler(text_startswith='soloplayer_')
 async def team_teams(call: CallbackQuery):
     player_id = call.data.split('_')[1]
-    text, markup = inline_kb_menu.solo_info(player_id)
+    text, markup = inline_kb_menu.teamsolo_info(player_id)
     await call.message.edit_text(text, reply_markup=markup)

@@ -1,62 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a7429a1-b994-40a7-b0bd-57cd1b4fde3e" name="Default Changelist" comment="f">
-      <change afterPath="$PROJECT_DIR$/../DjangoPostgres/.idea/DjangoPostgres.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_TELEGRAMM/DamirBOT/DamirBOT_v4/.idea/DamirBOT_v4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_TELEGRAMM/DamirBOT/DamirBOT_v5/.idea/DamirBOT.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_TELEGRAMM/DamirBOT/DamirBOT_v6/.idea/DamirBOT_v4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_TELEGRAMM/DamirBOT/DamirBot_v3/.idea/DamirBot_v3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_TELEGRAMM/bot_GladkovTests/.idea/DamirBOT_v4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_TELEGRAMM/bot_prodav_v_1.0/.idea/bot_prodav_v_1.0.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_TELEGRAMM/bot_silevans/.idea/DamirBOT_v4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_TELEGRAMM/bot_silevans/.idea/vizitka.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_TELEGRAMM/bot_torgovla/.idea/bot_torgovla.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_TELEGRAMM/bot_torgovla/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_TELEGRAMM/bot_vizitka/.idea/bot_vizitka.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_TELEGRAMM/bot_ytParse/.idea/bot_ytParse.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_TELEGRAMM/meditation/.idea/avito_1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_WEB/authorization/.idea/authorization.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_WEB/authorization/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_WEB/django/.idea/django.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_WEB/smoke_demo/.idea/smoke_demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_WEB/web/.idea/web.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_WEB/web/django_1/.idea/django_1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_YANDEX/git_hub/.idea/git_hub.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_YANDEX/git_hub/web/.idea/web.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_YANDEX/untitled/.idea/untitled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_YANDEX/untitled/Проект/.idea/Проект.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_компоненты/.idea/_компоненты.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_компоненты/telegram/.idea/telegram.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../avito_1/.idea/avito_1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../avito_1/handlers/users/inline_menu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoAdmin/.idea/djangoAdmin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mysite/.idea/mysite.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../neiro/.idea/neiro.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tg_bot_withWEB/.idea/tg_bot_withWEB.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/untitled1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webinars/.idea/webinars.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/inline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/solo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/team.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/trener.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/states/state.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/db_api/db_postgres.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ПАРСЕР_ТГ_БОТов/.idea/ПАРСЕР_ТГ_БОТов.iml" afterDir="false" />
+    <list default="true" id="3a7429a1-b994-40a7-b0bd-57cd1b4fde3e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/users.db" beforeDir="false" afterPath="$PROJECT_DIR$/db/users.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/users/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handlers/users/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/users/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/start.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyboards/default/keyboard_menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/default/keyboard_menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/solo.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/solo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/team.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/team.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/keyboards/inline/inline_kb_menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/inline_kb_menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/states/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/db_api/db_sqlite3.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/db_api/db_sqlite3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/set_bot_commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/set_bot_commands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/db_api/db_postgres.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/db_api/db_postgres.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684439124212</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="f">
+      <created>1684515929498</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684515929498</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -178,10 +136,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684438427821" />
-    <state x="614" y="107" key="CommitChangelistDialog2" timestamp="1684439192022">
+    <state x="614" y="107" key="CommitChangelistDialog2" timestamp="1684515927479">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="614" y="107" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684439192022" />
+    <state x="614" y="107" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684515927479" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1684438499408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -194,22 +152,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="784" y="440" key="Github.CreateGistDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684438348028" />
-    <state width="960" height="289" key="GridCell.Tab.0.bottom" timestamp="1684515614729">
+    <state width="960" height="289" key="GridCell.Tab.0.bottom" timestamp="1684524321956">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="960" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684515614729" />
-    <state width="960" height="289" key="GridCell.Tab.0.center" timestamp="1684515614729">
+    <state width="960" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684524321956" />
+    <state width="960" height="289" key="GridCell.Tab.0.center" timestamp="1684524321956">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="960" height="289" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684515614729" />
-    <state width="960" height="289" key="GridCell.Tab.0.left" timestamp="1684515614729">
+    <state width="960" height="289" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684524321956" />
+    <state width="960" height="289" key="GridCell.Tab.0.left" timestamp="1684524321956">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="960" height="289" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684515614729" />
-    <state width="960" height="289" key="GridCell.Tab.0.right" timestamp="1684515614729">
+    <state width="960" height="289" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684524321956" />
+    <state width="960" height="289" key="GridCell.Tab.0.right" timestamp="1684524321956">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="960" height="289" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684515614729" />
+    <state width="960" height="289" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684524321956" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1684439199106">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
