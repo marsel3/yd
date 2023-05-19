@@ -1,9 +1,9 @@
-from aiogram.dispatcher.filters import Command
 from aiogram import types
 from aiogram.types import CallbackQuery
 
 from loader import dp, datebase
-
+from states.state import *
+from aiogram.dispatcher import FSMContext
 from keyboards.default import keyboard_menu
 from keyboards.inline import inline_kb_menu
 
@@ -53,7 +53,16 @@ async def team_teams(call: CallbackQuery):
 
 @dp.callback_query_handler(text='search_team')
 async def search_team(call: CallbackQuery):
-    pass
+    await call.message.answer('Введите название команды или игрока:')
+    await SearchByTeam.team.set()
+
+
+@dp.message_handler(state=SearchByTeam.team)
+async def trener_fio(message: types.Message, state: FSMContext):
+    await message.answer('Вот что удалось найти: ',
+                         reply_markup=inline_kb_menu.searcher_team(message.text))
+    await state.finish()
+
 
 
 

@@ -89,6 +89,15 @@ def team_by_vidsportaid(vidsportaid):
     return InlineKeyboardMarkup(row_width=2, inline_keyboard=btns)
 
 
+def searcher_team(team):
+    m1 = datebase.search_by_team(team)
+    btns = []
+    for i in m1:
+        type = 'teamplayer' if datebase.vidsporta_type_by_team(i[0]) else 'soloplayer'
+        btns.append([InlineKeyboardButton(text=f'{i[1]}', callback_data=f'{type}_{i[0]}')])
+    btns.append([InlineKeyboardButton(text='Назад', callback_data=f'back_to_cat')])
+    return InlineKeyboardMarkup(row_width=2, inline_keyboard=btns)
+
 
 def trener_menu(user_id):
     trener_info = datebase.trener_info(user_id)
@@ -99,6 +108,7 @@ def trener_menu(user_id):
     btns = []
     if datebase.team_by_trener(trener_id):
         team_info = datebase.teaminfo_by_trener(trener_id)
+
         text += f'\n\nГлавный тренер команды "{team_info[1]}"'
         btns.append([InlineKeyboardButton(text=f'Рейтинг команды', callback_data=f'teamstatus_{team_info[0]}')])
         btns.append([InlineKeyboardButton(text=f'Статистика игр', callback_data=f'teamrange_{team_info[0]}')])

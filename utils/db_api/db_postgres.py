@@ -102,10 +102,10 @@ class DataBase:
             return self.cursor.fetchall()
 
 
-    def search_by_team(self, type):
+    def search_by_team(self, team):
         with self.connection:
             self.cursor.execute(f'''SELECT "team_id", "team_name" FROM "CreateDatabase_team" WHERE "team_name"
-                                    like '%{type}%' ''')
+                                    like '%{team}%' ''')
             return self.cursor.fetchall()
 
     def vidsporta(self, type):

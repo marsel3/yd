@@ -36,6 +36,7 @@ async def team_teams(call: CallbackQuery):
                               '\n1. ФИО_игроока - возраст\n2. ФИО_игроока - возраст')
     await ChangeSostav.msg.set()
 
+
 @dp.message_handler(state=ChangeSostav.msg)
 async def trener_fio(message: types.Message, state: FSMContext):
     m1 = datebase.trener_info(message.from_user.id)
