@@ -37,39 +37,38 @@
       <change afterPath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled1/.idea/untitled1.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../webinars/.idea/webinars.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/users.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filters/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filters/isadmin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/help.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/menu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/start.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/default/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/default/keyboard_menu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/inline_kb_menu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/states/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/states/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/db_api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/db_api/db_asyncpg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/db_api/db_sqlite3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/notify_admins.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/set_bot_commands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/inline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/solo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/team.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/trener.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/states/state.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/db_api/db_postgres.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ПАРСЕР_ТГ_БОТов/.idea/ПАРСЕР_ТГ_БОТов.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/users.db" beforeDir="false" afterPath="$PROJECT_DIR$/db/users.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/default/keyboard_menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/default/keyboard_menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/inline_kb_menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/inline_kb_menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/states/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/db_api/db_sqlite3.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/db_api/db_sqlite3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/set_bot_commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/set_bot_commands.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -81,17 +80,21 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory&#10;repository" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\akbul\PycharmProjects\yd\states" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\akbul\PycharmProjects\yd" />
       <recent name="C:\Users\akbul\PycharmProjects" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.app">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="yd" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,9 +116,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="db_postgres" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="yd" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils/db_api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/db_api/db_postgres.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.app" />
+        <item itemvalue="Python.db_postgres" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +155,19 @@
       <option name="presentableId" value="Default" />
       <updated>1684438087893</updated>
     </task>
+    <task id="LOCAL-00001" summary="f">
+      <created>1684439124212</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684439124212</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="f" />
+    <option name="LAST_COMMIT_MESSAGE" value="f" />
   </component>
   <component name="WindowStateProjectService">
     <state x="845" y="383" key="#Notifications" timestamp="1684438288032">
@@ -141,10 +178,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684438427821" />
-    <state x="614" y="107" key="CommitChangelistDialog2" timestamp="1684438961319">
+    <state x="614" y="107" key="CommitChangelistDialog2" timestamp="1684439192022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="614" y="107" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684438961319" />
+    <state x="614" y="107" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684439192022" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1684438499408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -157,13 +194,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="784" y="440" key="Github.CreateGistDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684438348028" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1684439075802">
+    <state width="960" height="289" key="GridCell.Tab.0.bottom" timestamp="1684515614729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684439075802" />
+    <state width="960" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684515614729" />
+    <state width="960" height="289" key="GridCell.Tab.0.center" timestamp="1684515614729">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="960" height="289" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684515614729" />
+    <state width="960" height="289" key="GridCell.Tab.0.left" timestamp="1684515614729">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="960" height="289" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684515614729" />
+    <state width="960" height="289" key="GridCell.Tab.0.right" timestamp="1684515614729">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="960" height="289" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684515614729" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1684439199106">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684439199106" />
     <state x="765" y="381" key="git4idea.rebase.GitRebaseDialog" timestamp="1684438545220">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="381" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684438545220" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1684511624643">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1684511624643" />
   </component>
 </project>
